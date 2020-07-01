@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+header .brand{
+    display: inline-block;
+    
+    
+}
+header .brand img {
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+}
+nav {
+    float: right;
+    margin: auto 0;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: underline;
+    margin: 10px;;
+}
+nav ul li a{
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+
+main{
+    padding: 0 3%;
+}
+
+.jumbotron {
+    background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)),
+        url('./images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    /* opacity: 0.20; */
+    
+}
+
+.mission{
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    width: 100%;
+ 
+}
+
+.tea{
+    margin-top: 30px;
+    padding-top: 20px;
+
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.tea-card{
+  
+    padding: 5px;
+}
+
+.tea-card img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+#location{
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.5),
+        rgba(20, 20, 20, 0.5)
+    ),
+    url('./images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 70px;
+    margin-top: 50px;
+}
+
+.location-container{
+    
+
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+
+}
+
+.location-card{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 10px;
+}
